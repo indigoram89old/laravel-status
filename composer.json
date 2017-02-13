@@ -1,0 +1,41 @@
+{
+    "name": "indigoram89/laravel-status",
+    "description": "Statuses for Laravel 5",
+    "keywords": [
+        "indigoram89", "laravel", "status"
+    ],
+    "homepage": "https://github.com/indigoram89/laravel-status",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Max Orlov",
+            "email": "maksimorlov.personal@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "illuminate/database": ">=5.3",
+        "illuminate/support": ">=5.3",
+        "indigoram89/laravel-fetchable": "^1.0",
+        "indigoram89/laravel-translatable": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "5.*",
+        "orchestra/testbench": "^3.4.0",
+        "mockery/mockery": "^0.9.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Indigoram89\\Status\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Indigoram89\\Status\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    }
+}
